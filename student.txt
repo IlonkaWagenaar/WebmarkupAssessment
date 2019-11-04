@@ -1,0 +1,4 @@
+Student name: Ilonka Wagenaar
+Student number: 648369
+Class: 1C
+URL GitHub repository: https://github.com/IlonkaWagenaar/WebmarkupAssessment
