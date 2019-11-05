@@ -1,6 +1,4 @@
-body {
-    background-color: red;
-}
+
 
 #Video {
   position: fixed;
@@ -8,4 +6,11 @@ body {
   bottom: 0;
   min-width: 100%;
   min-height: 100%;
+  z-index: -1;
+}
+body{
+    background: #FFFFFF;
+    margin: auto;
+    width: 1200px;
+    padding: 2em 2em 0em 2em;
 }
