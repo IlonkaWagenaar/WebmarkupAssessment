@@ -20,7 +20,7 @@ header{
 nav{
 	background: orange;
 }
-#sectionHaarlem{
+main{
 	background: green;
 }
 #sectionDenhout{
@@ -30,7 +30,7 @@ nav{
 	background: pink;
 }
 #sectionMudo{
-	background: purple;
+	background: white;
 }
 #sectionContact{
 	background: red;
