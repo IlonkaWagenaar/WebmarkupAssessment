@@ -226,7 +226,7 @@
 					action = "http://witan.nl/inholland/testform.php"
 					method = "post"
 					/>
-					 <fieldset id="info">  
+					 <fieldset id="contactformulier">  
                         <legend>
                             Contact formulier
                         </legend>
@@ -236,16 +236,14 @@
                             name="name"
                             type="text"
                             placeholder="Naam"
-                        />
-                        
+                        />                       
                         <label for="mail">Emailadres</label>                       
                         <input
                             id="mail"
                             name="email"
                             type="email"
                             placeholder="Email"
-                        />
-                            
+                        />                           
                         <label for="message">Type hier uw vraag</label>
                         <textarea
                             id="message"
@@ -254,7 +252,10 @@
 							rows="10"
                             placeholder="Typ hier uw vraag..."
                         ></textarea>
-                        <input type="submit" value="Verzenden"/>
+                        <input 
+							type="submit" 
+							value="Verzenden"
+						/>
                     </fieldset>  
 				</form>
 			</article>
