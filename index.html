@@ -15,15 +15,17 @@
 		<video autoplay muted loop id="Video">
 			<source src="afbeeldingen/Haarlem.mp4" type="video/mp4">
 		</video>
+		<!-- cookie statement-->
+		<section id="cookieStatement">
+			<p>Deze website maakt gebruik van cookies.</p>
+		</section>
 		<!-- HEADER -->
-		<header>		
-			<h1>Mudo Haarlem</h1>
+		<header class="Header"> 		
+			<p>  </P><h1>Mudo Haarlem</h1>
 			<h2>De leukste &#38; gezelligste sportclubs uit Haarlem!</h2>
-		</header>
-		
 		<!-- NAVIGATIE -->
 		<nav id="nav">		
-				<ul>
+				<ul id="nav2">
 					<li><a href="#Haarlem">Haarlem</a></li>
 					<li><a href="#Denhout">Den hout</a></li>
 					<li><a href="#sport">Sport</a></li>
@@ -31,11 +33,14 @@
 					<li><a href="#contact">Contact</a></li>
 				</ul>
 		</nav>
+		</header>
+		
+		
 		
 		<!-- HAARLEM -->	
 		<main>		
-			<section id="sectionHaarlem"> 
-				<header id="Haarlem"> 
+			<section id="grid-container"> 
+				<header class="Header"> 
 					<h2> Haarlem </h2>
 				</header>
 				<article id="articleHaarlem">			
@@ -98,7 +103,7 @@
 		
 		<!-- DEN HOUT -->
 		<section id="sectionDenhout"> 
-			<header id="Denhout"> 
+			<header class="Header"> 
 					<h2>Den Hout</h2>
 			</header>
 			<article id="articleSecondaryContent">				
@@ -138,14 +143,22 @@
 		</section>
 							
 		<!-- SPORTEN -->
-				<section id="sectionSport"> 
-			<header id="Sport"> 
+				<section id="sectionSport" class="sport"> 
+			<header> 
 					<h2>Sporten</h2>
 			</header>
 			<article id="articleSporten">				
-				<a href="https://www.hltc.nl/"><h4>Tennisvereniging HLTC</h4></a>
+				<section id="test"> <a href="https://www.hltc.nl/"><h4>Tennisvereniging HLTC</h4></a>
 				<p>	Dit is de oudste tennisclub van Nederland, de vereniging is opgericht in mei 1885. Hier worden lessen voor alle leeftijden georganiseerd. Ook kun je een baan reserveren op zelf op te spelen. 
-				</p>
+				</p> </section> 
+				<section id="test2">
+				<img
+					class="pc"
+					src="afbeeldingen/tennis2.png"
+					title="Afbeelding van zaal"
+					alt="Afbeelding van zaal"
+				/>
+				</section>
 				<a href="http://dsshonksoftbal.nl/"><h4>DSS Honk- en Softbalvereniging</h4></a>
 				<p>	DSS is een honk- en softbalverening, deze verening wil graag dat sporten iets is om  te doen voor je plezier, 
 				</p>
@@ -173,14 +186,60 @@
 				<a href="https://wudae.nl/?gclid=Cj0KCQiA-4nuBRCnARIsAHwyuPrSBS3IAXNjW4taD79FZm0aCHZ2jWd_b21Kk8BdldsF0WLpg5ds5QEaAoPBEALw_wcB"><h4>WU DAE</h4></a>
 				<p>	Bij Sportcentrum Wu Dae in Haarlem kun je kiezen uit tien verschillende soorten groepslessen. Deze lessen worden allemaal meerdere keren per week gegeven. Zowel in de ochtend, middag als avond kun je zo kiezen uit meer dan 30 groepslessen in de week. Je krijgt daarbij persoonlijke begeleiding tijdens het sporten van ervaren docenten. Iedereen kan zo op zijn eigen niveau werken aan een gezond en sterk lichaam.				</p>
 			</article>
-			<aside id="asideZaal2">
 				<img
 					class="pc"
-					src="afbeeldingen/zaal2.png"
+					src="afbeeldingen/voetbal2.png"
 					title="Afbeelding van zaal"
 					alt="Afbeelding van zaal"
 				/>
-			</aside>		
+				<img
+					class="pc"
+					src="afbeeldingen/sporten2.png"
+					title="Afbeelding van zaal"
+					alt="Afbeelding van zaal"
+				/>
+				<img
+					class="pc"
+					src="afbeeldingen/handbal.png"
+					title="Afbeelding van zaal"
+					alt="Afbeelding van zaal"
+				/>
+				<img
+					class="pc"
+					src="afbeeldingen/hockey.png"
+					title="Afbeelding van zaal"
+					alt="Afbeelding van zaal"
+				/>
+				<img
+					class="pc"
+					src="afbeeldingen/turnen2.png"
+					title="Afbeelding van zaal"
+					alt="Afbeelding van zaal"
+				/>
+				<img
+					class="pc"
+					src="afbeeldingen/wielrennen2.png"
+					title="Afbeelding van zaal"
+					alt="Afbeelding van zaal"
+				/>
+				<img
+					class="pc"
+					src="afbeeldingen/martialart2.png"
+					title="Afbeelding van zaal"
+					alt="Afbeelding van zaal"
+				/>
+				<img
+					class="pc"
+					src="afbeeldingen/honkbal.png"
+					title="Afbeelding van zaal"
+					alt="Afbeelding van zaal"
+				/>
+				<img
+					class="pc"
+					src="afbeeldingen/hardlopen.png"
+					title="Afbeelding van zaal"
+					alt="Afbeelding van zaal"
+				/>		
 			<footer id="footerMain">
 				<p> &copy; Ilonka Wagenaar </p>
 			</footer>			
@@ -188,11 +247,11 @@
 		
 		<!-- MUDO -->
 		<section id="sectionMudo"> 
-			<header id="Mudo"> 
+			<header class="Header"> 
 					<h2>Mudo</h2>
 			</header>
 			<article id="articleSecondaryContent">				
-				<p>	
+				<p>	Bij mudo leer je niet alleen je lichaam goed te beheersen maar ook je mentale kracht te ontwikkelen. Als je namelijk iets wilt leren, heb je, de mentale kracht, doorzettingsvermogen nodig Ook leer je je grenzen te verleggen. Bepaalde bewegingen waarvan je in eerste instantie dacht dat je ze niet kon uitvoeren, leer je jezelf aan doormiddel van training en harhaling. De volgende keren krijg je meer het gevoel dat het je gaat het lukken. Als je vaak gaat trainen, ga je merken dat je sommige oefeningen je steeds gemakkelijker afgaan. continu traint, zul je in de loop der tijd merken dat je steeds vooruitgaat, mentaal en fysiek. Bij HWA-rang wordt Mudo speciaal en enkel voor leden die taekwondo beoefenen vanaf 1ste kup. De training is gefocussed op realiteit op het gebied van zelfverdediging en persoonsontwikkeling. Specialistische trainingen zoals boksen, zelfverdediging ed. worden aangeboden. Geschikt voor alle leeftijden. Voor inschrijven of meer informatie kiijk op <a href="https://www.taekwon.nl/brazilian-jiu-jitsu/">deze pagina</a>.
 				</p>
 			</article>
 			<aside id="asideZaal2">
@@ -218,7 +277,7 @@
 		
 		<!-- CONTACT -->
 		<section id="sectionContact"> 
-			<header id="Contact"> 
+			<header class="Header"> 
 					<h2>Contact</h2>
 			</header>
 			<article id="articleSecondaryContent">				
@@ -230,21 +289,24 @@
                         <legend>
                             Contact formulier
                         </legend>
-                        <label for="name">Voornaam en Achternaam</label>
+                        <p>.</P>
+						<label for="name">Voornaam en Achternaam</label>
                         <input
                             id="name"
                             name="name"
                             type="text"
                             placeholder="Naam"
                         />                       
-                        <label for="mail">Emailadres</label>                       
+                        <p>.</P>
+						<label for="mail">Emailadres</label>                       
                         <input
                             id="mail"
                             name="email"
                             type="email"
                             placeholder="Email"
-                        />                           
-                        <label for="message">Type hier uw vraag</label>
+                        /> 						
+                        <section class="geheim"><p></P></section>
+						<label for="message">Type hier uw vraag</label>
                         <textarea
                             id="message"
                             name="message"
@@ -252,6 +314,7 @@
 							rows="10"
                             placeholder="Typ hier uw vraag..."
                         ></textarea>
+						<p>.</P>
                         <input 
 							type="submit" 
 							value="Verzenden"

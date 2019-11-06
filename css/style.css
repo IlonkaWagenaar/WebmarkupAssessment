@@ -1,5 +1,5 @@
 
-
+/* background video*/
 #Video {
   position: fixed;
   right: 0;
@@ -9,25 +9,33 @@
   z-index: -1;
 }
 body{
-    background: #FFFFFF;
     margin: auto;
     width: 1200px;
-    padding: 2em 2em 0em 2em;
+    padding: 2em 2em 10em 2em;
 }
-header{
-	background: orange;
-}
+/*header{
+	background-color: #444444;
+	color: #000000;
+	text-align: center;	
+}*/
 nav{
-	background: blue;
+	background: #2699fb;
 }
+nav2{
+	float: left;
+} 
 main{
 	background: green;
 }
 #sectionDenhout{
 	background: blue;
 }
-#sectionSport{
+/*#sectionSport{
 	background: pink;
+}*/
+.sport header{
+	text-align: center;
+	font-size: 2.4EM;
 }
 #sectionMudo{
 	background: white;
@@ -37,4 +45,35 @@ main{
 }
 footer{
 	background: yellow;
+	text-align: center;
+}
+#sectiontest{
+	float: left;
+}
+#sectiontest2{
+	float: right;
+}
+/*#grid-container{
+	background-color: #2699FB;
+}
+*/
+/*cookie statement*/
+#cookieStatement {
+    position: fixed;
+    bottom: 0em;
+    right: 0em;
+    z-index: 1;
+    background-color: #707070;
+    color: #FFF;
+    font-size: .7em;
+    padding: 0em 1em;
+    border: solid .1em #F5F5F5;
+}
+/* contact */
+#sectionContact{
+	background: #F5F5F5;
+	color: #000000;	
+}
+#geheim{
+	color:AAAAAA;
 }
