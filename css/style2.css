@@ -1,0 +1,36 @@
+
+/*zorgen dat de achtergrond video zichtbaar blijft*/
+body{
+    margin: auto;
+    width: 1200px;
+    padding: 2em 2em 10em 2em;
+	background-color: Red;
+}
+
+/*cookie statement*/
+#cookieStatement {
+    position: fixed;
+    bottom: 0em;
+    right: 0em;
+    z-index: 1;
+    background-color: #444444;
+    color: #FFF;
+    font-size: .7em;
+    padding: 0em 1em;
+    border: solid .1em #F5F5F5;
+}
+
+footer{
+	background: yellow;
+	position: fixed;
+}
+
+/*background video*/
+#Video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -10;
+}

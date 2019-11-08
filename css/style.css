@@ -13,50 +13,31 @@ body{
     width: 1200px;
     padding: 2em 2em 10em 2em;
 }
-/*header{
-	background-color: #444444;
+header{
+	background-color: #F5F5F5;
 	color: #000000;
 	text-align: center;	
-}*/
+}
 nav{
 	background: #2699fb;
 }
-nav2{
-	float: left;
-} 
 main{
 	background: green;
 }
-#sectionDenhout{
-	background: blue;
-}
-/*#sectionSport{
-	background: pink;
-}*/
-.sport header{
-	text-align: center;
-	font-size: 2.4EM;
-}
-#sectionMudo{
-	background: white;
-}
-#sectionContact{
-	background: red;
-}
+
 footer{
 	background: yellow;
 	text-align: center;
 }
-#sectiontest{
-	float: left;
+sporten{
+	background: white;
 }
-#sectiontest2{
+.tennis{
 	float: right;
 }
-/*#grid-container{
-	background-color: #2699FB;
+#p{
+	float: left;
 }
-*/
 /*cookie statement*/
 #cookieStatement {
     position: fixed;
@@ -68,12 +49,4 @@ footer{
     font-size: .7em;
     padding: 0em 1em;
     border: solid .1em #F5F5F5;
-}
-/* contact */
-#sectionContact{
-	background: #F5F5F5;
-	color: #000000;	
-}
-#geheim{
-	color:AAAAAA;
 }
