@@ -1,43 +1,26 @@
+/*stylsheet*/
 
-/* background video*/
-#Video {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-  z-index: -1;
-}
 body{
-    margin: auto;
+	margin: auto;
     width: 1200px;
-    padding: 2em 2em 10em 2em;
+    padding: 2em 2em 10em 2em;	
 }
 header{
-	background-color: #F5F5F5;
-	color: #000000;
+	background-color: #2699FB;
 	text-align: center;	
 }
 nav{
 	background: #2699fb;
 }
-main{
-	background: green;
-}
 
 footer{
-	background: yellow;
+	background: #444444;
 	text-align: center;
 }
-sporten{
-	background: white;
+section{
+	background-color: #F5F5F5;
 }
-.tennis{
-	float: right;
-}
-#p{
-	float: left;
-}
+
 /*cookie statement*/
 #cookieStatement {
     position: fixed;
@@ -49,4 +32,14 @@ sporten{
     font-size: .7em;
     padding: 0em 1em;
     border: solid .1em #F5F5F5;
+}
+
+/* background video*/
+#Video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
 }
