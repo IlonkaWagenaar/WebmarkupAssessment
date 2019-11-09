@@ -4,13 +4,34 @@ body{
 	margin: auto;
     width: 1200px;
     padding: 2em 2em 10em 2em;	
+	background: #000000;
 }
 header{
-	background-color: #2699FB;
+	background-color: #444444;
 	text-align: center;	
 }
-nav{
-	background: #2699fb;
+#nav2 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #2699FB;
+  position: sticky;
+}
+
+.nav3 {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #444444;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+li a:hover {
+  background-color: #F5F5F5;
 }
 
 footer{
@@ -20,7 +41,13 @@ footer{
 section{
 	background-color: #F5F5F5;
 }
-
+button {
+    column: controls;
+    row: auto;
+    padding: 1em;
+    border-radius: .15em;
+    font-size: .8em;
+}
 /*cookie statement*/
 #cookieStatement {
     position: fixed;
@@ -28,7 +55,7 @@ section{
     right: 0em;
     z-index: 1;
     background-color: #707070;
-    color: #FFF;
+    color: #FFFFFF;
     font-size: .7em;
     padding: 0em 1em;
     border: solid .1em #F5F5F5;
@@ -42,4 +69,6 @@ section{
   min-width: 100%;
   min-height: 100%;
   z-index: -1;
+  display: block;
+  margin: auto;
 }
