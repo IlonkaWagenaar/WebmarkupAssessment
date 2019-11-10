@@ -1,15 +1,47 @@
-/*stylsheet*/
+/*stylesheet*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Source+Sans+Pro&display=swap');
 
 body{
+	font-family: 'Open Sans','Montserrat','Source Sans Pro', sans-serif;
 	margin: auto;
     width: 1200px;
     padding: 2em 2em 10em 2em;	
 	background: #000000;
+	margin : 2em;
 }
 header{
 	background-color: #444444;
 	text-align: center;	
+	color: #ffffff;
 }
+h1{
+	font-size: 35pt;
+	margin: 2%;
+}
+h2{
+	font-size: 30pt;
+	margin: 2%;
+}
+h3{
+	font-size: 25pt;
+	margin: 2%;
+}
+h4{
+	font-size: 15pt;
+	margin: 2%;
+}
+p{
+	font-size: 15pt;
+	margin: 2%;
+}
+li{
+	font-size: 15pt;
+	margin: 3%;
+}
+a{
+	font-size: 15pt;
+}
+
 #nav2 {
   list-style-type: none;
   margin: 0;
@@ -17,6 +49,7 @@ header{
   overflow: hidden;
   background-color: #2699FB;
   position: sticky;
+  text-align: center;
 }
 
 .nav3 {
@@ -27,6 +60,7 @@ li a {
   display: block;
   color: #444444;
   text-align: center;
+  font-size: 25pt;
   padding: 14px 16px;
 }
 
@@ -34,19 +68,54 @@ li a:hover {
   background-color: #F5F5F5;
 }
 
+.img{
+	width: 200px;
+	float: right;
+	clear: both;
+	padding: 1px;
+	border-radius: 7px;	
+}
+
+#haarlem1{
+	float: right;
+	max-width: 60%;	
+}
+#haarlem2{
+	float: left;
+	max-width: 60%;
+} 
+
 footer{
 	background: #444444;
 	text-align: center;
+	color: #ffffff;
 }
 section{
 	background-color: #F5F5F5;
 }
-button {
-    column: controls;
-    row: auto;
-    padding: 1em;
-    border-radius: .15em;
-    font-size: .8em;
+#button {
+  /*display: inline-block;*/
+  padding: 20px 500px;
+  font-size: 35px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #ffffff;
+  background-color: #2699FB;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin: 2%;
+}
+
+#button:hover {background-color: #444444;
+}
+
+#button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(2px);
+  background-color: #2699FB;
 }
 /*cookie statement*/
 #cookieStatement {
@@ -55,10 +124,8 @@ button {
     right: 0em;
     z-index: 1;
     background-color: #707070;
-    color: #FFFFFF;
+    color: #444444;
     font-size: .7em;
-    padding: 0em 1em;
-    border: solid .1em #F5F5F5;
 }
 
 /* background video*/
