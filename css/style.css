@@ -5,9 +5,8 @@ body{
 	font-family: 'Montserrat', sans-serif,'Source Sans Pro', sans-serif, 'Open Sans', sans-serif;
 	margin: auto;
     width: 1200px;
-    padding: 2em 2em 10em 2em;	
+    padding: 2em 2em 2em 2em;	
 	background: #000000;
-	margin : 2em;
 }
 header{
 	background-color: #444444;
@@ -72,13 +71,18 @@ li a:hover {
 }
 
 .img{
-	width: 200px;
+	width: 225px;
 	float: right;
 	clear: both;
 	padding: 1px;
 	border-radius: 7px;	
 }
-
+.homeimg{
+	width:400px;
+}
+#micha{
+	float: right;
+}
 #haarlem1{
 	float: right;
 	max-width: 60%;	
@@ -126,8 +130,8 @@ section{
     bottom: 0em;
     right: 0em;
     z-index: 1;
-    background-color: #707070;
-    color: #444444;
+    background-color: #2699FB;
+    color: #707070;
     font-size: .7em;
 }
 
